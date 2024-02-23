@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🧮 ~ OSCILLATION ~ 🧮
 
-## Getting Started
+The Personal Profit & Loss App
 
-First, run the development server:
+## # Development Plan:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+#### What data do I need?
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [ ] Learn Plaid api
+- [ ] Fetch real bank data
+- [ ] Access previous statements
+  - [ ] daily
+  - [ ] monthly
+  - [ ] yearly?
+- [ ] Subdivide transactions by category
+- [ ] Calculate avg spending per category
+- [ ] Subdivide income vs expense
+- [ ] Calculate avg based on historical data
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+#### What does the MVP look like?
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Part 1
 
-## Learn More
+- [ ] For a given a month, show fixed and variable expenses
+  - [ ] show by day of the month
+- [ ] For a given a month, show income
+  - [ ] show by day of the month
 
-To learn more about Next.js, take a look at the following resources:
+Part 2
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [ ] For a future month, show projected expenses
+- [ ] For a future month, show projected income
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Part 3
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- tbd...
+- reference: https://docs.google.com/spreadsheets/d/1Jy44Kn0zz5gT_xBOIfRP6aQ6rqztnR3f89z0vyvkvyQ/edit#gid=1654397504
