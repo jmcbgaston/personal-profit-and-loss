@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     // TODO: Remove warning suppression in prod
     <html lang="en" suppressHydrationWarning={true}>
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} antialiased`}>{children}</body>
     </html>
   );
 }
